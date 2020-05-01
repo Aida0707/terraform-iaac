@@ -4,6 +4,7 @@ resource "aws_route_table" "r" {
     cidr_block = "0.0.0.0/0"
     gateway_id = "${aws_internet_gateway.gw.id}"
 }
+   tags = "${var.tags}"
 }
 resource "aws_route_table_association" "b1" {
   subnet_id      = "${aws_subnet.public1.id}"

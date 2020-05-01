@@ -13,8 +13,10 @@
  variable "cidr_block_private2" {}
  variable "cidr_block_private3" {}
 
-
- variable "Environment" {}
- variable "Department" {}
- variable "Team"       {}
- variable "Created_by" {}
+ variable "tags" {
+     type = "map"
+ }
+ variable "region_name" {}
+ variable "az1" {}
+ variable "az2" {}
+ variable "az3" {}

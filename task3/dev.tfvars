@@ -9,7 +9,13 @@ cidr_block_private1 = "10.16.11.0/24"
 cidr_block_private2 = "10.16.12.0/24"
 cidr_block_private3 = "10.16.13.0/24"
 
-Environment = "Dev"
-Department = "IT"
-Team       = "Infrastructure"
-Created_by = "Aida"
+az1                 = "a"
+az2                 = "b"
+az3                 = "c"
+
+tags = {
+    Environment = "Dev"
+    Department = "IT"
+    Team       = "Infrastructure"
+    Created_by = "Aida"
+}
