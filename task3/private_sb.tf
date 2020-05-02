@@ -24,7 +24,3 @@ resource "aws_subnet" "private3" {
 }
 
 # Nat Gateway
-
-resource "aws_eip" "nat" {
-  vpc      = true
-}
