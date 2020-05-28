@@ -32,4 +32,4 @@ module "my-cluster" {
     asg_desired_capacity = var.asg_desired_capacity
     }
   ]
-} 
+}
